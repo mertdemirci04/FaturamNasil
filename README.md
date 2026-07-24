@@ -22,8 +22,13 @@ This project uses a modern, automated pipeline to process complex document data 
     4. Gemini AI returns a structured **JSON** output.
     5. n8n passes the JSON back to the app, which is then parsed and beautifully displayed to the user in seconds.
 
-## ⚙️ Setup & Installation
 
+
+You need to configure this part in code in BillsViewModel.kt!
+DEFAULT_WEBHOOK_URL=[https://your-n8n-instance.com/webhook/yourID]
+
+
+## ⚙️ Setup & Installation
 1. Clone this repository:
    ```bash
    git clone [https://github.com/mertdemirci04/FaturamNasil.git](https://github.com/mertdemirci04/FaturamNasil.git)
